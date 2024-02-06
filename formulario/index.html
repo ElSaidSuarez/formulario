@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      REGISTRO DE USUARIOS
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>NOMBRE</label>
+          <input type="text" class="input">
+       </div>  
+        <div class="inputfield">
+          <label>APELLIDO</label>
+          <input type="text" class="input">
+       </div>     
+        <div class="inputfield">
+          <label>GENERO</label>
+          <div class="custom_select">
+          <input type="radio">mujer
+          <input type="radio">hombre
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>CORREO ELECTRONICO</label>
+          <input type="text" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>NUMERO DE TELEFONO</label>
+          <input type="text" class="input">
+       </div>  
+       <div class="custom_select2">
+        <select>
+          <option value="">TIPO DE DOCUMENTO</option>
+          <option value="male">CEDULA</option>
+          <option value="female">T.I</option>
+          <option value="female">CERTIFICADOS EXCEPCIONALES</option>
+          <option value="female">PASAPORTE</option>
+        </select>
+      </div>
+
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>TERMINOS Y CONDICIONES</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="REGISTRARSE" class="btn">
+      </div>
+    </div>
+</div>	
+	
+</body>
+</html>
